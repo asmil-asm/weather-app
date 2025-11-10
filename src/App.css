@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: ALex;
+  src: url('./fonts/Alexandria-Medium.ttf');
+}
+body{
+  @apply bg-blue-600
+}
+.main{
+  @apply w-lvw h-full absolute 
+}
+.weather{
+  @apply absolute top-1/2 left-1/2 -translate-1/2
+
+}
+.box{
+  @apply  w-xl p-2 text-white 
+}
+.header{
+  @apply flex flex-row-reverse border-b-2 p-4 items-center border-gray-300 gap-5
+}
+.header h1{
+  @apply text-5xl  
+}
+.header .date{
+  @apply mt-auto
+}
+
+.section{
+  @apply flex flex-row-reverse justify-between items-center
+}
+.section .deggre{
+  @apply flex flex-row-reverse items-center gap-4
+  }
+.section .deggre h2{
+  @apply text-4xl
+}
+.section .deggre img{
+  @apply w-15
+}
+
+.section  p{
+  @apply text-xs text-right text-gray-200 mt-3
+}
+.type{
+  @apply flex gap-4 mt-5
+}
+.cloud{
+  @apply w-50
+}
+.langushe{
+  @apply p-1 text-white cursor-pointer mt-5 
+}
+.lightDark{
+  @apply absolute top-1 left-3 w-10 cursor-pointer
+}
