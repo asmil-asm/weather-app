@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+    "homepage": "https://asmil-asm.github.io/weather-app/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +13,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://asmil-asm.github.io/weather-app.git ",
   "dependencies": {
     "@reduxjs/toolkit": "^2.10.1",
     "@tailwindcss/vite": "^4.1.15",
